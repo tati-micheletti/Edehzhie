@@ -57,7 +57,7 @@ out <- SpaDES.project::setupProject(
                     "fireSense_SpreadPredict"),
                   "@development")
               )),
-  functions = file.path(paths[["inputPath"]], "outterFuns.R"),
+  functions = "tati-micheletti/Edehzhie@master/inputs/outterFuns.R",
   options = list(spades.allowInitDuringSimInit = TRUE,
                  gargle_oauth_email = if (user("tmichele")) "tati.micheletti@gmail.com" else NULL,
                  SpaDES.project.fast = TRUE
