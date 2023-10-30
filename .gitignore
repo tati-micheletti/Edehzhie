@@ -1,0 +1,10 @@
+.Rproj.user/
+.Rproj.user/*
+./.Rproj.user/*
+./.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+*.html
+cache/
+outputs/
